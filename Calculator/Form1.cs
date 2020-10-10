@@ -170,7 +170,7 @@ namespace Calculator
 
         private void posneg_Click(object sender, EventArgs e)
         {
-            input += "0";
+            input += "+";
         }
 
         private void per_Click(object sender, EventArgs e)
