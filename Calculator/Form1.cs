@@ -16,7 +16,7 @@ namespace Calculator
         string operand1 = string.Empty;
         string operand2 = string.Empty;
         char operation;
-        double result = 0.0;
+        double result;
 
         public Form1()
         {
@@ -103,36 +103,37 @@ namespace Calculator
         private void add_Click(object sender, EventArgs e)
         {
             operand1 = input;
-            input += "+";
+            operation += '+';
             input = string.Empty;
         }
 
         private void sub_Click(object sender, EventArgs e)
         {
             operand1 = input;
-            input += "-";
+            operation += '-';
             input = string.Empty;
         }
 
         private void mul_Click(object sender, EventArgs e)
         {
             operand1 = input;
-            input += "*";
+            operation += '*';
             input = string.Empty;
         }
 
         private void div_Click(object sender, EventArgs e)
         {
             operand1 = input;
-            input += "/";
+            operation += '/';
             input = string.Empty;
         }
 
         private void equ_Click(object sender, EventArgs e)
         {
             operand2 = input;
-            double.TryParse(operand1, out double num1);
-            double.TryParse(operand2, out double num2);
+            double num1, num2;
+            double.TryParse(operand1, out num1);
+            double.TryParse(operand2, out num2);
 
             switch (operation)
             {
@@ -141,11 +142,11 @@ namespace Calculator
                     showresult.Text = result.ToString();
                     break;
                 case '-':
-                    result = num1 + num2;
+                    result = num1 - num2;
                     showresult.Text = result.ToString();
                     break;
                 case '*':
-                    result = num1 + num2;
+                    result = num1 * num2;
                     showresult.Text = result.ToString();
                     break;
                 case '/':
@@ -160,25 +161,33 @@ namespace Calculator
                         showresult.Text = "Not Operational";
                         break;
                     }
+                default:
+                    break;
             }
         }
 
         private void reset_Click(object sender, EventArgs e)
         {
+            input += "AC";
+            showresult.Text = "0";
             input = string.Empty;
+            operand1 = string.Empty;
+            operand2 = string.Empty;
         }
 
         private void posneg_Click(object sender, EventArgs e)
         {
-            input += "+";
+            input = "-" + input;
         }
 
         private void per_Click(object sender, EventArgs e)
         {
+            double num1;
+            double.TryParse(operand1, out num1);
             operand1 = input;
-            input += "%";
-            showresult.Text = 
-            input = string.Empty;
+            result = num1 / 100;
+            showresult.Text = result.ToString();
+            input = result.ToString();
         }
     }
 }
