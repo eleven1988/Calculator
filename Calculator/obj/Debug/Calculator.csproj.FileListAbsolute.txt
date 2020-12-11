@@ -28,3 +28,13 @@ X:\HU\CISC603\Projects\Calculator\obj\Debug\Calculator.csproj.GenerateResource.c
 X:\HU\CISC603\Projects\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 X:\HU\CISC603\Projects\Calculator\obj\Debug\Calculator.exe
 X:\HU\CISC603\Projects\Calculator\obj\Debug\Calculator.pdb
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\v-tewang\Desktop\calculator\Calculator\Calculator\obj\Debug\Calculator.pdb

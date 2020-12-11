@@ -58,7 +58,7 @@
             this.seven.TabIndex = 0;
             this.seven.Text = "7";
             this.seven.UseVisualStyleBackColor = true;
-            this.seven.Click += new System.EventHandler(this.seven_Click);
+            this.seven.Click += new System.EventHandler(this.number_Click);
             // 
             // four
             // 
@@ -68,7 +68,7 @@
             this.four.TabIndex = 1;
             this.four.Text = "4";
             this.four.UseVisualStyleBackColor = true;
-            this.four.Click += new System.EventHandler(this.four_Click);
+            this.four.Click += new System.EventHandler(this.number_Click);
             // 
             // one
             // 
@@ -79,7 +79,7 @@
             this.one.TabIndex = 2;
             this.one.Text = "1";
             this.one.UseVisualStyleBackColor = false;
-            this.one.Click += new System.EventHandler(this.one_Click);
+            this.one.Click += new System.EventHandler(this.number_Click);
             // 
             // zero
             // 
@@ -90,7 +90,7 @@
             this.zero.TabIndex = 3;
             this.zero.Text = "0";
             this.zero.UseVisualStyleBackColor = true;
-            this.zero.Click += new System.EventHandler(this.zero_Click);
+            this.zero.Click += new System.EventHandler(this.number_Click);
             // 
             // add
             // 
@@ -100,7 +100,7 @@
             this.add.TabIndex = 4;
             this.add.Text = "+";
             this.add.UseVisualStyleBackColor = true;
-            this.add.Click += new System.EventHandler(this.add_Click);
+            this.add.Click += new System.EventHandler(this.operand_cilck);
             // 
             // sub
             // 
@@ -110,7 +110,7 @@
             this.sub.TabIndex = 5;
             this.sub.Text = "-";
             this.sub.UseVisualStyleBackColor = true;
-            this.sub.Click += new System.EventHandler(this.sub_Click);
+            this.sub.Click += new System.EventHandler(this.operand_cilck);
             // 
             // div
             // 
@@ -120,7 +120,7 @@
             this.div.TabIndex = 6;
             this.div.Text = "/";
             this.div.UseVisualStyleBackColor = true;
-            this.div.Click += new System.EventHandler(this.div_Click);
+            this.div.Click += new System.EventHandler(this.operand_cilck);
             // 
             // mul
             // 
@@ -130,7 +130,7 @@
             this.mul.TabIndex = 7;
             this.mul.Text = "x";
             this.mul.UseVisualStyleBackColor = true;
-            this.mul.Click += new System.EventHandler(this.mul_Click);
+            this.mul.Click += new System.EventHandler(this.operand_cilck);
             // 
             // dot
             // 
@@ -150,7 +150,7 @@
             this.two.TabIndex = 9;
             this.two.Text = "2";
             this.two.UseVisualStyleBackColor = true;
-            this.two.Click += new System.EventHandler(this.two_Click);
+            this.two.Click += new System.EventHandler(this.number_Click);
             // 
             // five
             // 
@@ -160,7 +160,7 @@
             this.five.TabIndex = 10;
             this.five.Text = "5";
             this.five.UseVisualStyleBackColor = true;
-            this.five.Click += new System.EventHandler(this.five_Click);
+            this.five.Click += new System.EventHandler(this.number_Click);
             // 
             // eight
             // 
@@ -170,7 +170,7 @@
             this.eight.TabIndex = 11;
             this.eight.Text = "8";
             this.eight.UseVisualStyleBackColor = true;
-            this.eight.Click += new System.EventHandler(this.eight_Click);
+            this.eight.Click += new System.EventHandler(this.number_Click);
             // 
             // equal
             // 
@@ -211,7 +211,7 @@
             this.three.TabIndex = 15;
             this.three.Text = "3";
             this.three.UseVisualStyleBackColor = true;
-            this.three.Click += new System.EventHandler(this.three_Click);
+            this.three.Click += new System.EventHandler(this.number_Click);
             // 
             // six
             // 
@@ -221,7 +221,7 @@
             this.six.TabIndex = 16;
             this.six.Text = "6";
             this.six.UseVisualStyleBackColor = true;
-            this.six.Click += new System.EventHandler(this.six_Click);
+            this.six.Click += new System.EventHandler(this.number_Click);
             // 
             // nine
             // 
@@ -231,7 +231,7 @@
             this.nine.TabIndex = 17;
             this.nine.Text = "9";
             this.nine.UseVisualStyleBackColor = true;
-            this.nine.Click += new System.EventHandler(this.nine_Click);
+            this.nine.Click += new System.EventHandler(this.number_Click);
             // 
             // percentage
             // 
