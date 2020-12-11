@@ -2,7 +2,7 @@
 	The Windows Calculator app is a Windows app written in C#.
 	The app provides standard calculator functionalities.
 
-![Image of Calculator](https://https://github.com/eleven1988/Calculator/tree/main/Reference/Calculator.png?raw=true)
+![Image of Calculator](https://github.com/eleven1988/Calculator/tree/main/Reference/Calculator.png?raw=true)
 
 # Features
 	Standard Calculator functionalities which offers basic operations and evaluates commands immediately.
